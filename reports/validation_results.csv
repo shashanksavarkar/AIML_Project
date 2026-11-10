@@ -1,0 +1,5 @@
+model,accuracy,macro_F1,defect_recall,seconds
+Decision Tree,0.9084,0.7576,0.9884,0.8
+Random Forest,0.968,0.8595,0.9878,1.6
+SVM,0.9466,0.8288,0.9952,41.4
+Logistic Regression,0.9203,0.7501,0.9901,7.4

@@ -1,0 +1,17 @@
+# Large data files: never commit these
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.pkl
+*.pkl.zip
+
+# Models are rebuilt from the notebook; commit only if you choose to
+# models/*.joblib
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
